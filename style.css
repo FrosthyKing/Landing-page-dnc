@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+#logo{
+   margin-left: 50px;
+   margin-top: 50px; 
+}
+#titulo-superior{
+   margin-left: 150px;
+   margin-top: 50px;
+}
+#titulo-texto{
+   margin-left: 150px;
+   margin-top: 35px;
+   padding-bottom: 100px;
+}
+#menusuperior{
+    background-image: url(imagens/fundo-menu1.svg);
+    color: aliceblue;
+}
+#menuinformação{
+   background-color: #EAECE5;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+.icones{
+   margin: 50px 0px 50px 100px;
+   padding: 10px;
+}
+.textoinformativo{
+   display: flex;
+   align-items: center;
+}
+#secaovideo{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+#titulovideo{
+   margin-top: 50px;
+   color: #247BA0;
+}
+#video{
+   margin: 50px 25px 50px 100px;
+}
+#carrossel{
+   background-color: #247BA0;
+   padding: 50px;
+}
+#titulocarrossel{
+   text-align: center;
+   color: #EAECE5;
+   font-size: 25px;
+}
+#alunosdivisao{
+   margin: 35px 10px 0px 10px;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+
+#seta-esquerda{
+   display: none;
+}
+#bruna{
+   display: none;
+}
+.seta{
+   cursor: pointer;
+   margin-top: 50px;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+.seta:hover{
+   transform:translateY(-7px);
+   transition: 1s;
+}
+#formulario{
+text-align: center;
+}
+#titulo-formulario{
+   margin-top: 25px;
+   font-size: 25px;
+   color: #383838;
+}
+input{
+   width: 300px;
+   height: 40px;
+   background-color: #EAECE5;
+   margin: 15px;
+   border: 0px;
+   border-radius: 5px;
+   padding-left: 10px;
+}
+button{
+   background-color: #247BA0;
+   border: 0px;
+   height: 40px;
+   width: 250px;
+   color: #EAECE5;
+   border: 0px;
+   border-radius: 5px;
+   margin-bottom: 50PX;
+   font-weight: bolder;
+   cursor: pointer;
+}
+button:hover{
+   background-color: #3a9dc7;
+   color: white;
+   transform: translateY(-7px);
+   box-shadow: 0px 15px 20px #020a307a;
+   transition-duration: 0.5s;
+}
